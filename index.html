@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dla Wiktorii</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="screen1" class="container enter-from-bottom">
+    <h1>Hej Julka 👋</h1>
+    <button id="revealBtn">Kliknij, mam coś dla Ciebie</button>
+  </div>
+
+  <div id="screen2" class="container hidden letter-container slide-in-right blurred">
+    <p class="handwritten">
+      Dzień doberek słonko 😘!<br><br>
+      Po prostu chciałem ci powiedzieć jeszcze raz,że naprawdę ostatnie spotkanie było super<br>
+      To jak się do mnie przytulałaś to było coś niesamowitego, te uczucie było niesamowitei nigdy tak dobrze się nie czułem przy kimś <br><br>
+      To jest niesamowite jak wszystko zdołało się zmienić o 180 stopni i bardzo się cieszę że tak sie stało. W twoich oczach można się zgubić,na twój uśmiech można się patrzeć całymi dniami i po prostu cała ty jesteś PIĘKNA<br><br>
+      Może nie jestem idealny, ale staram się być dla ciebie jak najbardziej kochany, wspierający i trosklwy jak mogę<br><br>
+      Może to tylko kod, ale płynie prosto z serca ❤️<br><br>
+      — M.
+    </p>
+    <button id="unblurBtn">Odsłoń list ✉️</button>
+    <button id="smileBtn" class="hidden">Uśmiechnęłam się 😊</button>
+  </div>
+
+  <div id="emojis"></div>
+  <script src="script.js"></script>
+</body>
+</html>
